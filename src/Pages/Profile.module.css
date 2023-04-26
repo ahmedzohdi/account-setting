@@ -1,0 +1,46 @@
+.profile {
+  width: 85%;
+  height: 66vh;
+
+  border-radius: 5px;
+  padding: 40px 40px 0 40px;
+}
+
+.manage {
+  height: auto;
+}
+.manage h4 {
+  margin: 0;
+  color: rgb(0, 0, 65);
+}
+.manage p {
+  margin: 5px 0 10px 0;
+  color: rgb(161 161 163);
+}
+
+.account-manage {
+  width: 100%;
+  height: 85%;
+  display: flex;
+}
+
+.selectors {
+  width: 25%;
+  border-right: 1px solid rgb(200 200 213);
+  display: flex;
+  flex-direction: column;
+}
+
+.account-selectors h4 {
+  color: rgb(161 161 163);
+  cursor: pointer;
+}
+.account-selectors .account {
+  color: rgb(0, 0, 65);
+  cursor: default;
+}
+
+.selected {
+  border-left: 3px solid rgb(0, 0, 65);
+  padding-left: 5px;
+}

@@ -1,0 +1,119 @@
+.email {
+  width: 50%;
+  padding-left: 20px;
+}
+.email h4 {
+  margin-bottom: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-pw {
+  border: 2px solid rgb(161 161 163);
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.current-pw input {
+  width: 70%;
+  height: 30px;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+.icon {
+  width: 25px;
+  height: 30px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.continue {
+  width: 15%;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 65);
+  border: none;
+  color: white;
+  margin: 20px 0;
+}
+
+.updated {
+  color: green;
+  text-align: center;
+}
+
+.margin {
+  margin: 0;
+}
+
+h5 {
+  color: rgb(68, 68, 224);
+}
+
+.new-email {
+  border: 2px solid rgb(161 161 163);
+  width: 50%;
+  height: 30px;
+  margin: 5px 0;
+  outline: none;
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+.setting-button {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.setting-button .cancel {
+  width: 30%;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 65);
+  color: rgb(0, 0, 65);
+  cursor: pointer;
+  height: 30px;
+  border-radius: 10px;
+}
+.setting-button .change-email {
+  width: 60%;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 65);
+  border: none;
+  color: white;
+}
+
+.margin-and-color {
+  margin: 0;
+  color: red;
+}
+
+.done {
+  width: 15%;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 65);
+  border: none;
+  color: white;
+  margin: 20px 0;
+}
